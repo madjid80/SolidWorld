@@ -1,0 +1,72 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "NewkingsOfFool",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "Received",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "getBalance",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getLastDeposit",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": "608060405234801561001057600080fd5b50336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550600060028190555061036b806100686000396000f3fe60806040526004361061002d5760003560e01c806312065fe0146101975780633c78934d146101c257610192565b36610192577f88a5966d370b9919b20f3e2c13ff65706f196a4e32cc2c12bf57088f885258743334604051610063929190610259565b60405180910390a1600060025414610149576000600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc349081150290604051600060405180830381858888f19350505050905080610110576040517f08c379a0000000000000000000000000000000000000000000000000000000008152600401610107906102df565b60405180910390fd5b7f79cdd2170b9a631fed230ed2f29439b82f25a137b6e503691aa9d1435ba041753360405161013f91906102ff565b60405180910390a1505b3460028190555033600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055005b600080fd5b3480156101a357600080fd5b506101ac6101ed565b6040516101b9919061031a565b60405180910390f35b3480156101ce57600080fd5b506101d76101f5565b6040516101e4919061031a565b60405180910390f35b600047905090565b6000600254905090565b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b600061022a826101ff565b9050919050565b61023a8161021f565b82525050565b6000819050919050565b61025381610240565b82525050565b600060408201905061026e6000830185610231565b61027b602083018461024a565b9392505050565b600082825260208201905092915050565b7f4661696c656420746f2073656e64204574686572000000000000000000000000600082015250565b60006102c9601483610282565b91506102d482610293565b602082019050919050565b600060208201905081810360008301526102f8816102bc565b9050919050565b60006020820190506103146000830184610231565b92915050565b600060208201905061032f600083018461024a565b9291505056fea2646970667358221220cd2d4afaf2f26bfb2337587463fa18124469c9b11ea9a109fb880fdecf7386fe64736f6c63430008110033"
+}

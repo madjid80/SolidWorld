@@ -1,0 +1,17 @@
+{
+  "name": "smartcontract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "initial.js",
+  "scripts": {
+    "deploy": "node initial.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ethersproject/contracts": "^5.7.0",
+    "@ethersproject/providers": "^5.7.1",
+    "@ethersproject/wallet": "^5.7.0",
+    "solc": "^0.8.17"
+  }
+}
